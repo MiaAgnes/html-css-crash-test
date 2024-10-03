@@ -1,4 +1,5 @@
 body, ul, li, h1, h2, a{
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   /* Insert a margin property and set it's value to 0 */
@@ -11,6 +12,16 @@ body, ul, li, h1, h2, a{
 p{
     font-size: 18px;
 
+=======
+  
+  /* Insert a margin property and set it's value to 0 */
+  /* Insert a padding property and set it's value to 0 */
+  /* Insert a font-family property and set it's value to tahoma
+  font-family: tahoma;
+}
+p{
+  /* Insert a font-size property and set it's value to 18px */
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
 }
 header{
   background-color: #F63232;
@@ -23,11 +34,14 @@ header{
   z-index: 1;
 }
 header h1{
+<<<<<<< HEAD
   color: white;
   border: white;
   display: inline-block;
   padding: 6px 12px;
   border-radius: 36px;
+=======
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
   /* Insert a color property and set it's value to white  */
   /* Insert a border property and set it's value to 8px solid white  */
   /* Insert a display property and set it's value to inline-block  */
@@ -50,7 +64,10 @@ header h1{
   top: 30%;
 } 
 .banner .welcome span{
+<<<<<<< HEAD
   font-size: 1.4em;
+=======
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
   /* Insert a font-size property and set it's value to 1.4em */
 }
 nav{
@@ -77,7 +94,10 @@ nav li a{
   color: #4B4B4B;
 }
 nav li a:hover{
+<<<<<<< HEAD
   text-decoration: underline;
+=======
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
   /* Insert a text-decoration property and set it's value to underline */
 }
 nav li a.join{
@@ -92,10 +112,16 @@ main{
   box-sizing: border-box;
 }
 article h2{
+<<<<<<< HEAD
   color: #F63232;
   font-size: 48px;
   /* Insert a color property and set it's value to #F63232  */
   /* Insert a font-size property and set it's value to 48px */
+=======
+  /* Insert a color property and set it's value to #F63232  */
+  /* Insert a font-size property and set it's value to 48px */
+  font-size: 48px;
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
 }
 article p{
   line-height: 2em;
@@ -152,12 +178,16 @@ form {
     padding-left: 1.5rem;
     padding-top: 6rem;
 }
+<<<<<<< HEAD
 form input{ 
   margin: 20px 0;
   padding: 10px 20px;
   font-size: 24px;
   border-radius: 28px;
   border: white;
+=======
+form input{
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
   /* Insert a margin property and set it's value to 20px and 0  */
   /* Insert a padding property and set it's value to 10px and 20px */ 
   /* Insert a font-size property and set it's value to 24px */
@@ -172,8 +202,11 @@ form textarea{
   border: 4px solid black;
 }
 form input:focus{
+<<<<<<< HEAD
   border: 4px dashed #4B4B4B;
   outline: none;
+=======
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
   /* Insert a border property with following values: 4px dashed #4B4B4B */
   /* Insert a outline property with following values: none */
 }
@@ -185,9 +218,12 @@ form input:valid{
   border: 4px solid #71d300;
 }
 input[type="submit"] {
+<<<<<<< HEAD
   width: 39rem;
   background-color: red;
   font-size: xx-large;
+=======
+>>>>>>> 35db240cb0b25cc2e34e07c2cafaa8702799c1e4
   /* Insert a width property with following value: 39rem */
   /* Insert a background-color property with following value: red */
   /* Insert a font-size property with following value: xx-large */
